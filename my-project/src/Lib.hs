@@ -12,14 +12,14 @@ hello :: IO ()
 hello = do
   Gtk.init Nothing
 
-  win <- new Gtk.Window [ #title := "こんにちは" ]
+  win <- new Gtk.Window [ #title := "hello" ]
 
   on win #destroy Gtk.mainQuit
 
-  button <- new Gtk.Button [ #label := "おしてね" ]
+  button <- new Gtk.Button [ #label := "please push" ]
 
   on button #clicked (set button [ #sensitive := False,
-      #label := "押してくれてありがとう、テストは成功しました" ] )
+      #label := "thank you. test is good." ] )
 
   #add win button
 

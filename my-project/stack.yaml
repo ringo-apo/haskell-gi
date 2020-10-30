@@ -37,7 +37,20 @@ packages:
 # These entries can reference officially published versions as well as
 # forks / in-progress versions pinned to a git hash. For example:
 #
-# extra-deps:
+extra-deps:
+- gtk2hs-buildtools-0.13.8.0
+- glib-0.13.8.1
+- cairo-0.13.8.1
+- pango-0.13.8.1
+- haskell-gi-0.24.5
+- haskell-gi-base-0.24.3
+- gi-pango-1.0.23
+- gi-harfbuzz-0.0.3
+- gi-glib-2.0.24
+- gi-gobject-2.0.24
+#- haskell-gi-0.23.1@sha256:cd32b00d482baf64d8ec23f1181dbf983211aa238d05de8928511f4884b2e7f2,5208
+#- haskell-gi-base-0.23.0@sha256:6c90f3e710921e7884a86fb53bf4b4e50a178f61e3a4ea365a1aa9deba30a075,2341
+
 # - acme-missiles-0.3
 # - git: https://github.com/commercialhaskell/stack.git
 #   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
